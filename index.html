@@ -9,7 +9,16 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <div class="form">
+        <h1>QR Code Generator</h1>
+        <form action="#">
+            <input type="url" name="website" id="website" placeholder="ENTER ANY URL" required>
+            <div id="qrcode-container">
+                <div id="qrcode" class="qrcode"></div>
+            </div>
+            <button type="button" onclick="generateQRCode()">Generate QR Code</button>
+        </form>
+    </div>
     <script src="./index.js"></script>
 </body>
 </html>
