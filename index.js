@@ -4,7 +4,7 @@ function generateQRCode() {
         let qrcodeContainer = document.getElementById("qrcode");
         qrcodeContainer.innerHTML = "";
         new QRCode(qrcodeContainer, website);
-        document.getElementById("qrcode-conatiner").style.display = "block";
+        document.getElementById("qrcode-container").style.display = "block";
     } else{
         alert("Please enter a valid URL");
     }

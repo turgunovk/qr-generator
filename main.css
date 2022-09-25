@@ -1,5 +1,5 @@
 body{
-    background: rgb(200, 220, 224);
+    background: #355c7d;
 }
 
 /* Form Section */
@@ -9,14 +9,15 @@ body{
     margin: 100px auto;
     text-align: center;
     padding: 16px;
-    background: #ffffff;
+    background: #ebebeb;
+    transition: all 0.4s;
 }
 .form h1{
-    background: #c56d86;
+    background: #6f6375;
     padding: 20px 0;
     font-weight: 400;
     text-align: center;
-    color: #ffacb4;
+    color: #ffbac1;
     margin: -16px -16px 16px -16px;
     font-size: 25px;
 }
@@ -24,12 +25,13 @@ body{
 .form input[type="url"]{
     box-sizing: border-box;
     width: 100%;
-    background: #fff;
+    background: #f4f4f4;
     margin-bottom: 4%;
     border: 1px solid #ccc;
     padding: 4%;
     font-size: 17px;
     color: rgb(9, 61, 125);
+    transition: all 0.4s;
 }
 .form input[type="text"]:focus,
 .form input[type="url"]:focus{
@@ -44,22 +46,25 @@ body{
     width: 180px;
     margin: 0 auto;
     padding: 3%;
-    background: #0853b6;
+    background: #725a7a;
     border: none;
     border-radius: 3px;
+    font-family: Helvetica, sans-serif;
     font-size: 17px;
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;
     color: #ffacb4;
     cursor: pointer;
+    transition: all 0.4s;
 }
 .form button:hover{
-    background: rgba(88, 104, 191, 0.5);
+    opacity: 0.85;
+    color: #e78a93;
 }
 
 /* QR Code Section */
-#qrcode-conatiner{
+#qrcode-container{
     display: none;
 }
 .qrcode{
