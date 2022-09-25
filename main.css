@@ -1,0 +1,14 @@
+body{
+    background: rgb(200, 220, 224);
+}
+
+/* Form Section */
+.form{
+    font-family: Helvetica, sans-serif,serif;
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+    font-size: 25px;
+}
